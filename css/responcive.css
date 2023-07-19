@@ -8,9 +8,17 @@
     nav .manu ul li{
         margin-top: 25px;
     }
+    /* ================ banar pat====================== */
     .banar{
         flex-direction: column-reverse;
     }
+    .banar-text{
+        width: 100%;
+    }
+    .banar-img{
+        width: 100%;
+    }
+    /* ======================= we are pat======================= */
     #we-are{
         flex-direction: column;
     }
@@ -20,52 +28,16 @@
     #we-are .we-text{
         width: 100%;
 }
-.banar-text{
-    width: 100%;
-}
-.banar-img{
-    width: 100%;
-}
+   /* =======================online-games======================= */
  .online-games-card{
     flex-direction: column;
 }
-#play-instantly{
-    flex-direction: column;
-}
-.play-img1{
-    width: 50%;
-}
-.play-text{
-    width: 100%;}
-    #play-games{
-        flex-direction: column-reverse;
-    }
-    .play-games-text{
-        width: 100%;
-    }
-    .imgs1{
-        width: 50%;
-    }
-    .imgs2{
-        width: 50%;
-    }
-    .games-img{
-        width: 50%;
-    }
-/*.games-img1{
-    width: 100%;
-}
+   /* ============================================== */
 
-
-
-
-.play-text{
-    width: 100%;
-
-}
-.play-games-text{
-    width: 50%;
-} */
+    /* ===================================== */
+  
+/* ================== careers pat=================== */
+   
 .careers-main{
     flex-direction: column;
 }
@@ -75,8 +47,15 @@
 .careers-text{
     width: 100%;
 }
+/* ============================================== */
+/* ====================new part ========================== */
+.game-ar-talika{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* ==================new part=================== */
+/* ==================footer pat=================== */
 footer{
-    padding: 0px 0px;
+    padding: 0px 0px  ;
 }
 .my-link{
     flex-wrap: wrap;
