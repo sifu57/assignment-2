@@ -189,11 +189,45 @@ margin-bottom: 176px;
     text-align: center;
     width: 342px;
 }
+/* ====================online games end==================================== */
 /* ====================   ==================================== */
+.textn{
+    text-align: center;
+}
+.imgn{
+    /* width: 400px; */
+    position: relative;
+}
+.playimain img{
+    /* width: 100%; */
+}
 
-
-
-
+.playimain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img2{
+   position: absolute;
+   top: 80%;
+   right: 80%;
+}
+.inst-hadding{
+    /* text-align: right; */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+.inst-tital{
+    color: #534C64;
+    /* text-align: right; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+/* ====================   ==================================== */
 /* ===========================careers css=================================================== */
 .careers-main{
     display: flex;
@@ -224,6 +258,7 @@ margin-bottom: 176px;
 }
 #careers{
 background-color: #FF42A5;
+margin-top: 250px;
 }
 .careers-hadding{
     color: #FFF;
@@ -258,6 +293,7 @@ background-color: #FF42A5;
 .games-only{
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 .active{
     border:1px solid #F948B2;
