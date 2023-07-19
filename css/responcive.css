@@ -1,3 +1,4 @@
+/* ========================mobile divise 425px==================================== */
 @media screen and (max-width:425px) {
     nav{
         flex-direction: column;
@@ -86,3 +87,15 @@ footer{
     row-gap: 20px;
 }
 }
+/* ====================================@media midem dibise tab================================== */
+@media screen and (min-width:426px) and (max-width:768px){
+    .online-games-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .game-ar-talika{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+}
+/* =================ami bonas paur jonon ata korci jodi kono disin dauo takto ta hola sob ta kortam ... akon ai tuko korlam .......  */
