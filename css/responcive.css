@@ -1,0 +1,95 @@
+@media screen and (max-width:425px) {
+    nav{
+        flex-direction: column;
+    }
+    nav .manu ul{
+        flex-direction: column;
+    }
+    nav .manu ul li{
+        margin-top: 25px;
+    }
+    .banar{
+        flex-direction: column-reverse;
+    }
+    #we-are{
+        flex-direction: column;
+    }
+    #we-are .we-img{
+        width: 100%;
+    }
+    #we-are .we-text{
+        width: 100%;
+}
+.banar-text{
+    width: 100%;
+}
+.banar-img{
+    width: 100%;
+}
+ .online-games-card{
+    flex-direction: column;
+}
+#play-instantly{
+    flex-direction: column;
+}
+.play-img1{
+    width: 50%;
+}
+.play-text{
+    width: 100%;}
+    #play-games{
+        flex-direction: column-reverse;
+    }
+    .play-games-text{
+        width: 100%;
+    }
+    .imgs1{
+        width: 50%;
+    }
+    .imgs2{
+        width: 50%;
+    }
+    .games-img{
+        width: 50%;
+    }
+/*.games-img1{
+    width: 100%;
+}
+
+
+
+
+.play-text{
+    width: 100%;
+
+}
+.play-games-text{
+    width: 50%;
+} */
+.careers-main{
+    flex-direction: column;
+}
+.careers-img{
+    width: 100%;
+}
+.careers-text{
+    width: 100%;
+}
+footer{
+    padding: 0px 0px;
+}
+.my-link{
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+.logo-socal-midea{
+    flex-wrap: wrap;
+    column-gap: 90px;
+    row-gap: 30px;
+}
+.sceting{
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 20px;
+}
+}
